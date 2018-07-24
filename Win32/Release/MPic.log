@@ -1,0 +1,25 @@
+﻿生成启动时间为 2018/7/24 20:51:11。
+     1>项目“C:\Users\rain\Desktop\MPicSpace\MPic\MPic.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Generate moc_predefs.h
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles\Release /I.\GeneratedFiles /I. /ID:\Qt5.8_VS2013\5.8\msvc2013\include /ID:\Qt5.8_VS2013\5.8\msvc2013\include\QtWidgets /ID:\Qt5.8_VS2013\5.8\msvc2013\include\QtGui /ID:\Qt5.8_VS2013\5.8\msvc2013\include\QtANGLE /ID:\Qt5.8_VS2013\5.8\msvc2013\include\QtNetwork /ID:\Qt5.8_VS2013\5.8\msvc2013\include\QtCore /Irelease /I"D:\Qt5.8_VS2013\5.8\msvc2013\mkspecs\win32-msvc2013" /nologo /W3 /WX- /MP /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 dialog\dialog.cpp main.cpp .\GeneratedFiles\Release\moc_dialog.cpp .\GeneratedFiles\qrc_res.cpp
+         dialog.cpp
+         main.cpp
+         moc_dialog.cpp
+     1>dialog\dialog.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         qrc_res.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _WINDOWS /D UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /l"0x0409" /nologo /fo"Win32\Release\MPic.res" MPic.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release\\MPic.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Qt5.8_VS2013\5.8\msvc2013\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:D:\Qt5.8_VS2013\5.8\msvc2013\lib D:\Qt5.8_VS2013\5.8\msvc2013\lib\qtmain.lib shell32.lib D:\Qt5.8_VS2013\5.8\msvc2013\lib\Qt5Widgets.lib D:\Qt5.8_VS2013\5.8\msvc2013\lib\Qt5Gui.lib D:\Qt5.8_VS2013\5.8\msvc2013\lib\Qt5Network.lib D:\Qt5.8_VS2013\5.8\msvc2013\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\MPic.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Release\MPic.res
+         Win32\Release\dialog.obj
+         Win32\Release\main.obj
+         Win32\Release\moc_dialog.obj
+         Win32\Release\qrc_res.obj
+         MPic.vcxproj -> C:\Users\rain\Desktop\MPicSpace\MPic\release\MPic.exe
+     1>已完成生成项目“C:\Users\rain\Desktop\MPicSpace\MPic\MPic.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.70

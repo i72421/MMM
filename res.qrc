@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/error.png</file>
+        <file>Resource/MPic.ico</file>
+        <file>Resource/normal.png</file>
+        <file>Resource/ok.png</file>
+        <file>Resource/upload.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,17 @@
+
+*.obj
+*.tlog
+*.log
+*.pdb
+MPic/Release/MPic.res
+*.txt
+*.suo
+*.suo
+*.res
+*.suo
+*.sdf
+*.user
+MPic/GeneratedFiles/Release/moc_MPic.cpp
+MPic/GeneratedFiles/qrc_MPic.cpp
+MPic/GeneratedFiles/Debug/moc_MPic.cpp
+MPic/MPic.vcxproj.user
